@@ -61,3 +61,10 @@ Try building this project on your own - or at least try to get as far as possibl
 
 1. apply styles in `App.jsx`
 2. apply styles in `ProjectsSidebar.jsx`
+
+## 3. Adding the "New Project" Component & A Reusable "Input" Component
+
+1. create `NewProject.jsx` component
+2. create a reusable `Input.jsx` component
+3. use this reusable `Input.jsx` component in `NewProject.jsx` component
+4. use `NewProject.jsx` component in `App.jsx` component
