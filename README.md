@@ -56,3 +56,8 @@ Try building this project on your own - or at least try to get as far as possibl
 
 1. create `ProjectsSidebar.jsx` component
 2. output `<ProjectsSidebar />` component in `App.js`
+
+## 2. Styling the Sidebar & Button with Tailwind CSS
+
+1. apply styles in `App.jsx`
+2. apply styles in `ProjectsSidebar.jsx`
