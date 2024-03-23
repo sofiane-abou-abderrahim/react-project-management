@@ -51,3 +51,8 @@ Try building this project on your own - or at least try to get as far as possibl
 1. create a `README.md` file
 2. run `npm install`
 3. run `npm run dev`
+
+## 1. Adding a "Projects Sidebar" Component
+
+1. create `ProjectsSidebar.jsx` component
+2. output `<ProjectsSidebar />` component in `App.js`
