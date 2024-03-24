@@ -73,3 +73,11 @@ Try building this project on your own - or at least try to get as far as possibl
 
 1. apply styles in `NewProject.jsx` component
 2. apply styles in `Input.jsx` component
+
+## 5. Splitting Components to Split JSX & Tailwind Styles (for Higher Reusability)
+
+1. create a `NoProjectSelected.jsx` component
+2. create a reusable `Button.jsx` component
+3. replace the button in `ProjectsSidebar.jsx` with the `<Button />` component
+4. use the `<Button />` component in the `NoProjectSelected.jsx` component
+5. replace the `<NewProject />` component with the `<NoProjectSelected />` component in `App.jsx`
