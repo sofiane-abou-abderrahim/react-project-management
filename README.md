@@ -88,3 +88,11 @@ Try building this project on your own - or at least try to get as far as possibl
 2. create a `handleStartAddProject()` function, then use it on `<ProjectsSidebar />` & `< NoProjectSelected />`
 3. use the `onStartAddProject` prop in `ProjectsSidebar.jsx` & `NoProjectSelected.jsx` components
 4. add a `content` variable to conditonally output either the `<NoProjectSelected />` or the `<NewProject />` components
+
+## 7. Collecting User Input with Refs & Forwarded Refs
+
+1. collect user input values with `useRef()` in the `NewProject.jsx` component
+2. import `forwardRef` from React & use it in `Input.jsx`
+3. add a `handleSave()` function in `NewProject.jsx`
+4. add a `handleAddProject()` function in `App.jsx`
+5. invoke `handleAddProject()` inside `NewProject.jsx`
