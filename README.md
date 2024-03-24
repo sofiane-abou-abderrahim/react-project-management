@@ -101,3 +101,11 @@ Try building this project on your own - or at least try to get as far as possibl
 
 1. close the form if we click on `Save` button by setting `selectedId` to `undefined` in `handleAddProject()` in `App.js`
 2. output the projects list in `ProjectsSidebar.jsx`
+
+## 9. Validating User Input & Showing an Error Modal via useImperativeHandle
+
+1. create a `Modal.jsx` component
+2. write conditions for showing either error modal or validating the form in `NewProject.jsx`
+3. use `createPortal()` from `react-dom` to render the modal in a different place from the DOM
+4. use `forwardRef()` & `useImperativeHandle()` hooks from `react` to make the modal even more flexible
+5. use the `<Modal />` component in `NewProject.jsx`
