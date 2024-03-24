@@ -68,3 +68,8 @@ Try building this project on your own - or at least try to get as far as possibl
 2. create a reusable `Input.jsx` component
 3. use this reusable `Input.jsx` component in `NewProject.jsx` component
 4. use `NewProject.jsx` component in `App.jsx` component
+
+## 4. Styling Buttons & Inputs with Tailwind CSS
+
+1. apply styles in `NewProject.jsx` component
+2. apply styles in `Input.jsx` component
