@@ -81,3 +81,10 @@ Try building this project on your own - or at least try to get as far as possibl
 3. replace the button in `ProjectsSidebar.jsx` with the `<Button />` component
 4. use the `<Button />` component in the `NoProjectSelected.jsx` component
 5. replace the `<NewProject />` component with the `<NoProjectSelected />` component in `App.jsx`
+
+## 6. Managing State to Switch Between Components
+
+1. add a `ProjectsState` with `useState()` in `App.jsx`
+2. create a `handleStartAddProject()` function, then use it on `<ProjectsSidebar />` & `< NoProjectSelected />`
+3. use the `onStartAddProject` prop in `ProjectsSidebar.jsx` & `NoProjectSelected.jsx` components
+4. add a `content` variable to conditonally output either the `<NoProjectSelected />` or the `<NewProject />` components
