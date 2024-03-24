@@ -96,3 +96,8 @@ Try building this project on your own - or at least try to get as far as possibl
 3. add a `handleSave()` function in `NewProject.jsx`
 4. add a `handleAddProject()` function in `App.jsx`
 5. invoke `handleAddProject()` inside `NewProject.jsx`
+
+## 8. Handling Project Creation & Updating the UI
+
+1. close the form if we click on `Save` button by setting `selectedId` to `undefined` in `handleAddProject()` in `App.js`
+2. output the projects list in `ProjectsSidebar.jsx`
