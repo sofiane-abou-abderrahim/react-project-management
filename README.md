@@ -109,3 +109,8 @@ Try building this project on your own - or at least try to get as far as possibl
 3. use `createPortal()` from `react-dom` to render the modal in a different place from the DOM
 4. use `forwardRef()` & `useImperativeHandle()` hooks from `react` to make the modal even more flexible
 5. use the `<Modal />` component in `NewProject.jsx`
+
+## 10. Styling the Modal via Tailwind CSS
+
+1. apply styles in `NewProject.jsx` & `Modal.jsx`
+2. make the `Cancel` button work in `NewProject.jsx` with help of the `handleCancelAddProject()` function
