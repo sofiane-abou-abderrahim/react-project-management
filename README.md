@@ -124,3 +124,8 @@ Try building this project on your own - or at least try to get as far as possibl
    3. highlight which project was selected with help of the `selectedProjectId`
 3. use the `<SelectedProject />` and output it in `App.jsx` if a project was selected
 4. configure the `onClick` prop in `ProjectsSidebar.jsx` so that you can pass the `project.id` to `onSelectProject` prop
+
+## 12. Handling Project Deletion
+
+1. add a `handleDeleteProject()` function in `App.jsx`
+2. extract the `onDelete` prop from `App.jsx` and connect it to the `<button>` in `SelectedProject.jsx`
