@@ -114,3 +114,13 @@ Try building this project on your own - or at least try to get as far as possibl
 
 1. apply styles in `NewProject.jsx` & `Modal.jsx`
 2. make the `Cancel` button work in `NewProject.jsx` with help of the `handleCancelAddProject()` function
+
+## 11. Making Projects Selectable & Viewing Project Details
+
+1. add a new `SelectedProject.jsx` component
+2. output the `<SelectedProject />` component in `ProjectsSidebar.jsx`
+   1. make sure that the projects can be selected by adding a `handleSelectProject()` function in `App.jsx`
+   2. extract the `onSelectProject` prop from `App.jsx` in `ProjectsSidebar.jsx` and connect it to the `button`
+   3. highlight which project was selected with help of the `selectedProjectId`
+3. use the `<SelectedProject />` and output it in `App.jsx` if a project was selected
+4. configure the `onClick` prop in `ProjectsSidebar.jsx` so that you can pass the `project.id` to `onSelectProject` prop
