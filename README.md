@@ -136,3 +136,11 @@ Try building this project on your own - or at least try to get as far as possibl
 2. output the `<Tasks />` component in `SelectedProject.jsx`
 3. create a `NewTask.jsx` component to add new tasks to the project
 4. output the `<NewTask />` component in `Tasks.jsx`
+
+## 14. Managing Tasks & Understanding Prop Drilling
+
+1. extract the value entered by the user into the `<input />` in `NewTask.jsx` with help of `useState()`
+2. when the `button` is clicked in `NewTask.jsx`, forward this task information in `App.jsx` to store it
+3. use prop drilling to forward functions into several layers of components
+4. output the tasks in the `Tasks.jsx` component
+5. use prop drilling to forward the `tasks` prop to all the related components
