@@ -144,3 +144,8 @@ Try building this project on your own - or at least try to get as far as possibl
 3. use prop drilling to forward functions into several layers of components
 4. output the tasks in the `Tasks.jsx` component
 5. use prop drilling to forward the `tasks` prop to all the related components
+
+## 15. Clearing Tasks & Fixing Minor Bugs
+
+1. add a new `handleDeleteTask` in `App.jsx`
+2. connect the function to the `<button>` in `Tasks.jsx`
