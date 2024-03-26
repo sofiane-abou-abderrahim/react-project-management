@@ -129,3 +129,10 @@ Try building this project on your own - or at least try to get as far as possibl
 
 1. add a `handleDeleteProject()` function in `App.jsx`
 2. extract the `onDelete` prop from `App.jsx` and connect it to the `<button>` in `SelectedProject.jsx`
+
+## 13. Adding "Project Tasks" & A Tasks Component
+
+1. create a `Tasks.jsx` component
+2. output the `<Tasks />` component in `SelectedProject.jsx`
+3. create a `NewTask.jsx` component to add new tasks to the project
+4. output the `<NewTask />` component in `Tasks.jsx`
