@@ -149,3 +149,7 @@ Try building this project on your own - or at least try to get as far as possibl
 
 1. add a new `handleDeleteTask` in `App.jsx`
 2. connect the function to the `<button>` in `Tasks.jsx`
+
+## 16. Fixing More Bugs
+
+1. make tasks unique for each project
